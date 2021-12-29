@@ -1,0 +1,24 @@
+Please enter 6 salesmans' names
+ROHANA
+AMIR
+ZIYAD
+AMINA
+SULAIMAN
+FARIS
+
+Please enter 6 sales
+23000
+15000
+72000
+41000
+35000
+16000
+
+Salesman 1 ROHANA achieved the sales amount RM 23000.0
+Salesman 2 AMIR achieved the sales amount RM 15000.0
+Salesman 3 ZIYAD achieved the sales amount RM 72000.0
+Salesman 4 AMINA achieved the sales amount RM 41000.0
+Salesman 5 SULAIMAN achieved the sales amount RM 35000.0
+Salesman 6 FARIS achieved the sales amount RM 16000.0
+
+The best salesman is ZIYAD achieved the highestsales amount RM 72000.0
