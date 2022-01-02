@@ -1,0 +1,44 @@
+package selfProgramming;
+import java.util.Scanner;
+public class myArray {
+
+	public static void main(String[] args) {
+		// Finding the maximum and minimum mark in array
+		// Calculate sum and average of all mark in array 
+		int i;
+		int mark[]= new int [5];
+		double sum=0;
+		double ave;
+		int max=0;
+		int min=100;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Please enter 5 marks");
+		for (i=0; i< mark.length; i++) {
+			mark[i]= sc.nextInt();
+			if(mark[i]> max) 
+				max=mark[i];
+			if(mark[i]<min) 
+				min=mark[i];
+			
+		}
+		
+		
+		System.out.println("The 5 marks is = "+mark[0]+ " , "+mark[1]+" , "+ mark[2]+" , "+mark[3]+" , "+mark[4]  );
+		System.out.println("The highest mark is "+ max);
+		System.out.println("The lowest mark is "+ min);
+
+		
+		sum= mark[0]+mark[1]+mark[2]+mark[3]+mark[4];
+		ave= sum/5;
+		
+		System.out.println("The sum of 5 marks is = "+ sum);
+		System.out.println("The average of 5 marks is  ="+ ave);		
+
+
+
+
+	}
+
+}
