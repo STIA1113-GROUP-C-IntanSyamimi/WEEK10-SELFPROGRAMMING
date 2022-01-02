@@ -1,0 +1,35 @@
+package myArray;
+import java.util.Scanner;
+public class ExerciseScanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+				
+				Scanner sc = new Scanner (System.in);
+				
+				int[] numArray = new int [15];
+				int index;
+				
+				System.out.println("Please enter 15 elements of array: ");
+				
+				for(index = 0; index < numArray.length; index++)
+					numArray[index] = sc.nextInt();
+				
+				numArray[4] = 35;
+				
+				numArray[8] = numArray[5] + numArray[12];
+				
+				for(index = 0; index < numArray.length; index++)
+					System.out.println(numArray[index] + " ");
+
+			}
+}
+
+
+		/*Write Java statements that do the following:
+		a) Declare an array numArray of 15 elements of type int.
+		b) Output the value of the tenth element of the array alpha.
+		c) Set the value of the fifth element of the array alpha to 35.
+		d) Set the value of the ninth element of the array alpha to the sum of the sixth and thirteenth elements of the array alpha.*/
+
+
