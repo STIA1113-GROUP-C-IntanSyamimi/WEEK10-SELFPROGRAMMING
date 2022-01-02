@@ -1,0 +1,24 @@
+Please enter 6 salesmans' names
+Aizat
+Saleha
+Fakhri
+Muaz
+Amina
+Rohana
+
+Please enter 6 sales
+12000
+32000
+67000
+50000
+46000
+22000
+
+Salesman 1 Aizat achieved the sales amount RM 12000.0
+Salesman 2 Saleha achieved the sales amount RM 32000.0
+Salesman 3 Fakhri achieved the sales amount RM 67000.0
+Salesman 4 Muaz achieved the sales amount RM 50000.0
+Salesman 5 Amina achieved the sales amount RM 46000.0
+Salesman 6 Rohana achieved the sales amount RM 22000.0
+
+The best salesman is Fakhri achieved the highestsales amount RM 67000.0
