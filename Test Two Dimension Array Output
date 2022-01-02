@@ -1,0 +1,29 @@
+Enter row: 
+3
+Enter column: 
+3
+Enter array element: 
+12
+32
+45
+67
+98
+33
+90
+21
+43
+12
+32
+45
+Printsum 89
+PrintTotalsum 89
+67
+98
+33
+Printsum 198
+PrintTotalsum 287
+90
+21
+43
+Printsum 154
+PrintTotalsum 441
