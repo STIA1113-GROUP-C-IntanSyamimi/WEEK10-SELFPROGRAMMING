@@ -1,0 +1,13 @@
+package myArray;
+
+public class PrintElement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int []alpha = {9,2,8,5,9,1,56,3,45,34,99,52,44,79,35};
+        
+        
+        System.out.println("The 10 element is "+alpha[9]);
+	}
+
+}
