@@ -1,0 +1,51 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class myArray2 {
+
+	public static void main(String[] args) {
+		// ask array size from user
+		// ask user to key in ages
+		// finding youngest and oldest from the ages user key in
+		
+		int i;
+		int arraysize;
+		double sum=0;
+		double ave;
+		int max=0;
+		int min=200;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Please enter array size");
+		arraysize=sc.nextInt();
+		int []age= new int [arraysize];
+		
+		System.out.println("Please enter age");
+		for (i=0; i<arraysize; i++) {
+			age[i]= sc.nextInt();
+			if(age[i]> max) 
+				max=age[i];
+			if(age[i]<min) 
+				min=age[i];
+			    sum=sum+age[i];
+			
+		}
+		
+		
+		System.out.println("The oldest is "+ max);
+		System.out.println("The youngest is "+ min);
+
+		
+		ave= sum/arraysize;
+		
+		System.out.println("The sum of ages is = "+ sum);
+		System.out.println("The average of ages is  ="+ ave);		
+
+
+
+
+	}
+
+}
