@@ -1,0 +1,42 @@
+Enter first array 
+1
+2
+3
+4
+5
+Enter second array 
+6
+7
+8
+9
+10
+Array before swapping 
+
+First array 
+1
+2
+3
+4
+5
+
+Second array 
+6
+7
+8
+9
+10
+Array after swapping 
+
+First array 
+1
+2
+3
+8
+5
+
+Second array 
+6
+7
+8
+9
+2
